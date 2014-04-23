@@ -20,6 +20,8 @@ group :development, :test do
   gem 'pry-stack_explorer'
   gem 'binding_of_caller'
   gem 'better_errors'
+  gem "rspec-rails", "~> 2.14.2"
+  gem "factory_girl_rails", "4.4.1"
 end
 
 gem 'letter_opener', group: :development
